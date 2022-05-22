@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackLiftWindows", "TrackLiftWindows\TrackLiftWindows.csproj", "{299F7D05-49A1-4C7D-8578-A69AA9296E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackLift.Models", "TrackLift.Models\TrackLift.Models.csproj", "{EA85BDD0-A994-46E7-ABBF-2150AECEEA03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AD8857A-9436-4CFA-9D2F-0F83D7930E96}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackLift.DataLayer.Interfaces", "TrackLift.DataLayer.Interfaces\TrackLift.DataLayer.Interfaces.csproj", "{56CDDFDD-ED3C-4B97-A04A-2491B5D4EAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackLift.Base", "TrackLift.Base\TrackLift.Base.csproj", "{821DD4E5-A200-4497-9847-FBAA6E91A004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackLift.DataLayer.Windows", "TrackLift.DataLayer.Windows\TrackLift.DataLayer.Windows.csproj", "{5ED5CFE3-0592-4BB7-B2D0-9E0A12034C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{299F7D05-49A1-4C7D-8578-A69AA9296E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299F7D05-49A1-4C7D-8578-A69AA9296E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299F7D05-49A1-4C7D-8578-A69AA9296E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299F7D05-49A1-4C7D-8578-A69AA9296E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA85BDD0-A994-46E7-ABBF-2150AECEEA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA85BDD0-A994-46E7-ABBF-2150AECEEA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA85BDD0-A994-46E7-ABBF-2150AECEEA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA85BDD0-A994-46E7-ABBF-2150AECEEA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CDDFDD-ED3C-4B97-A04A-2491B5D4EAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CDDFDD-ED3C-4B97-A04A-2491B5D4EAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CDDFDD-ED3C-4B97-A04A-2491B5D4EAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CDDFDD-ED3C-4B97-A04A-2491B5D4EAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821DD4E5-A200-4497-9847-FBAA6E91A004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821DD4E5-A200-4497-9847-FBAA6E91A004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821DD4E5-A200-4497-9847-FBAA6E91A004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821DD4E5-A200-4497-9847-FBAA6E91A004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED5CFE3-0592-4BB7-B2D0-9E0A12034C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED5CFE3-0592-4BB7-B2D0-9E0A12034C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED5CFE3-0592-4BB7-B2D0-9E0A12034C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED5CFE3-0592-4BB7-B2D0-9E0A12034C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F1CFB83-4BBC-4A18-ABFC-E033DAFAE36D}
+	EndGlobalSection
+EndGlobal
